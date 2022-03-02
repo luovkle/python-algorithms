@@ -22,12 +22,11 @@ def binary_search(arr: List[int], x: int) -> bool:
             end = middle - 1
         elif arr[middle] < x:
             start = middle + 1
-    return False
 
 
 if __name__ == "__main__":
     arr = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]  # Example
-    x = 100  # example
+    x = 100  # Example
 
     r = binary_search(arr, x)
     print(r)
